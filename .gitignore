@@ -1,43 +1,36 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+npm-debug.log
+node_modules/
+sftp-config.json
+config.json
+public/src/nodebb.min.js
+!src/views/config.json
+public/css/*.css
+*.sublime-project
+*.sublime-workspace
+.project
+.idea
+*.swp
+Vagrantfile
+.vagrant
+provision.sh
+*.komodoproject
 .DS_Store
-.AppleDouble
-.LSOverride
+feeds/recent.rss
 
-# Icon must end with two \r
-Icon
+# winston?
+error.log
+events.log
 
-# Thumbnails
-._*
+pidfile
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+# templates
+/public/templates
+/public/sounds
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+/public/uploads
+
+# compiled files
+/public/stylesheet.css
+/public/admin.css
+/public/nodebb.min.js
+/public/nodebb.min.js.map
